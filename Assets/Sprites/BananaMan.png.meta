@@ -1,0 +1,924 @@
+fileFormatVersion: 2
+guid: 877720eac4d40e0479338ea4ad263576
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4487285411394087635
+    second: BananaMan_0
+  - first:
+      213: -3758111811614183226
+    second: BananaMan_1
+  - first:
+      213: -5835378043462235469
+    second: BananaMan_2
+  - first:
+      213: 1286809949887114349
+    second: BananaMan_3
+  - first:
+      213: -7778240675572686271
+    second: BananaMan_4
+  - first:
+      213: -3857843151322773021
+    second: BananaMan_5
+  - first:
+      213: -7278456536666016692
+    second: BananaMan_6
+  - first:
+      213: 180692290013155193
+    second: BananaMan_7
+  - first:
+      213: -3568937923944416947
+    second: BananaMan_8
+  - first:
+      213: -6387422507310998954
+    second: BananaMan_9
+  - first:
+      213: 6333019078682709972
+    second: BananaMan_10
+  - first:
+      213: 4253109742124371061
+    second: BananaMan_11
+  - first:
+      213: -4625298271219776592
+    second: BananaMan_12
+  - first:
+      213: 4621552707052286513
+    second: BananaMan_13
+  - first:
+      213: 4843373811627668524
+    second: BananaMan_14
+  - first:
+      213: -6936563064119696580
+    second: BananaMan_15
+  - first:
+      213: 5336972116919458374
+    second: BananaMan_16
+  - first:
+      213: -5305714210574713912
+    second: BananaMan_17
+  - first:
+      213: 1677029094907966011
+    second: BananaMan_18
+  - first:
+      213: 7922284801381032945
+    second: BananaMan_19
+  - first:
+      213: 1951806960496241941
+    second: BananaMan_20
+  - first:
+      213: 4166836210952978002
+    second: BananaMan_21
+  - first:
+      213: 307898568474135860
+    second: BananaMan_22
+  - first:
+      213: 6126490189183403682
+    second: BananaMan_23
+  - first:
+      213: 6656421075317060187
+    second: BananaMan_24
+  - first:
+      213: 5205372103637951490
+    second: BananaMan_25
+  - first:
+      213: 952580621873990198
+    second: BananaMan_26
+  - first:
+      213: 3238280354433347764
+    second: BananaMan_27
+  - first:
+      213: 995205225744657569
+    second: BananaMan_28
+  - first:
+      213: 6634163223011523986
+    second: BananaMan_29
+  - first:
+      213: -8068934924590069075
+    second: BananaMan_30
+  - first:
+      213: -6916080101114023762
+    second: BananaMan_31
+  - first:
+      213: -2161032228928256770
+    second: BananaMan_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BananaMan_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 265
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daefe79e4a064e30800000000000000
+      internalID: 4487285411394087635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 264
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0798af73188dbc0800000000000000
+      internalID: -3758111811614183226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 264
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bac15d2692940fa0800000000000000
+      internalID: -5835378043462235469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 264
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ca574e4daabd110800000000000000
+      internalID: 1286809949887114349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 236
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142eef201532e0490800000000000000
+      internalID: -7778240675572686271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 234
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e98b36f710367ac0800000000000000
+      internalID: -3857843151322773021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 234
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44f6e2c75abdfa90800000000000000
+      internalID: -7278456536666016692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 235
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fc2ef2ea2f18200800000000000000
+      internalID: 180692290013155193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 201
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d497fd10ed5987ec0800000000000000
+      internalID: -3568937923944416947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 201
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a946552115b57a0800000000000000
+      internalID: -6387422507310998954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 201
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df87ac5c4763e750800000000000000
+      internalID: 6333019078682709972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 201
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c831ac6c4160b30800000000000000
+      internalID: 4253109742124371061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 169
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b387bb6ab3afcfb0800000000000000
+      internalID: -4625298271219776592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 169
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132b89673bd032040800000000000000
+      internalID: 4621552707052286513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 169
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c243f7402de173340800000000000000
+      internalID: 4843373811627668524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 169
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33ec0905a06cbf90800000000000000
+      internalID: -6936563064119696580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 137
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a16252ddbb01a40800000000000000
+      internalID: 5336972116919458374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 136
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbb3fe49015e56b0800000000000000
+      internalID: -5305714210574713912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 137
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32fbf79311064710800000000000000
+      internalID: 1677029094907966011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_19
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 137
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3eac38d0c91fd60800000000000000
+      internalID: 7922284801381032945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 104
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d6386e616361b10800000000000000
+      internalID: 1951806960496241941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 105
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e361ff47393d930800000000000000
+      internalID: 4166836210952978002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_22
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 105
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d80c0ed10e54400800000000000000
+      internalID: 307898568474135860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_23
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 105
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a641361e5aa50550800000000000000
+      internalID: 6126490189183403682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 72
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5272b563bb506c50800000000000000
+      internalID: 6656421075317060187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_25
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 76
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204611959523d3840800000000000000
+      internalID: 5205372103637951490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_26
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 74
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a48b2570f383d00800000000000000
+      internalID: 952580621873990198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_27
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 74
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0302143dea0fc20800000000000000
+      internalID: 3238280354433347764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 43
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac6f1741edafcd00800000000000000
+      internalID: 995205225744657569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 40
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dff815d48411c50800000000000000
+      internalID: 6634163223011523986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 40
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daac018ef62650090800000000000000
+      internalID: -8068934924590069075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_31
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 40
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea073fe7ac52500a0800000000000000
+      internalID: -6916080101114023762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BananaMan_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 8
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef48f8e23a87202e0800000000000000
+      internalID: -2161032228928256770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
