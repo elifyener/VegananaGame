@@ -2,16 +2,20 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CharacterControl
+    - CloudMove
+    - HealthSystem
     - PlatformControl
     - Score
+    - SendCloud
     - SendFruit
+    - SendWind
+    - TreeMove
+    - WindMove
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     - UnityEditor.U2D.IK.IKGizmos
-    Unity.2D.IK.Runtime.dll:
-    - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -32,11 +36,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnimatorStateTransitionInspector
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -45,10 +46,13 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/MainScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -80,33 +84,51 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1632}
+      Script: {instanceID: 1484}
     - Class: 114
-      Script: {instanceID: 1846}
+      Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 2224}
+      Script: {instanceID: 1870}
     - Class: 114
-      Script: {instanceID: 2648}
+      Script: {instanceID: 1908}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 2280}
     - Class: 114
-      Script: {instanceID: 2858}
+      Script: {instanceID: 2288}
     - Class: 114
-      Script: {instanceID: 3028}
+      Script: {instanceID: 2714}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 2890}
     - Class: 114
-      Script: {instanceID: 3274}
+      Script: {instanceID: 2940}
     - Class: 114
-      Script: {instanceID: 3550}
+      Script: {instanceID: 3124}
     - Class: 114
-      Script: {instanceID: 4192}
+      Script: {instanceID: 3248}
     - Class: 114
-      Script: {instanceID: 4578}
+      Script: {instanceID: 3376}
     - Class: 114
-      Script: {instanceID: 4732}
+      Script: {instanceID: 3504}
     - Class: 114
-      Script: {instanceID: 5112}
+      Script: {instanceID: 3524}
+    - Class: 114
+      Script: {instanceID: 3572}
+    - Class: 114
+      Script: {instanceID: 3666}
+    - Class: 114
+      Script: {instanceID: 4148}
+    - Class: 114
+      Script: {instanceID: 4358}
+    - Class: 114
+      Script: {instanceID: 4766}
+    - Class: 114
+      Script: {instanceID: 4928}
+    - Class: 114
+      Script: {instanceID: 5336}
+    - Class: 114
+      Script: {instanceID: 5420}
+    - Class: 114
+      Script: {instanceID: 5872}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -168,12 +190,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalAsset
-  - hash:
-      serializedVersion: 2
-      Hash: d1b036fbe5adcfe372c77a9d812c7e37
-    assemblyName: Unity.2D.IK.Runtime.dll
-    namespaceName: UnityEditor.U2D.IK
-    className: IKEditorManagerHelper
   - hash:
       serializedVersion: 2
       Hash: bcaee4c2a83047257b5f47d6ed264b75
@@ -242,6 +258,12 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
+      Hash: be1fd61eb2494ff44f374322fe971e40
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SendWind
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro
@@ -294,12 +316,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: Benchmark02
-  - hash:
-      serializedVersion: 2
-      Hash: 5f170942ee57c7a568f5bcfc7521adea
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools
-    className: EnumerableTestState
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -476,6 +492,18 @@ ScriptsOnlyBuild:
     className: SpriteShapeController
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WindMove
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloudMove
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -578,6 +606,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: 98296c15340abf8dc18dd03a790d9cda
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SendCloud
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -614,7 +648,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 30f3213a6e218a461fa00e428f22d3eb
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlatformControl
@@ -794,6 +828,12 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: db5f9579f17eb84d6dbc7cc265cee951
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HealthSystem
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -866,6 +906,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TreeMove
+  - hash:
+      serializedVersion: 2
       Hash: 762a30c8d779b11af16ed9ce1f2d32fa
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
@@ -878,5 +924,5 @@ ScriptsOnlyBuild:
     className: TMP_TextEventCheck
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Program Files/Unity/Hub/Editor/Veganana/Veganana.apk
+  - Assets/Scenes/MainScene.unity
+  playerPath: D:/@Projects/Veganana-Game/Veganana.apk
