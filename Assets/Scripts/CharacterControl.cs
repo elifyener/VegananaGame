@@ -15,11 +15,11 @@ public class CharacterControl : MonoBehaviour
     {
        if(Input.anyKey){
            if (Input.mousePosition.x < Screen.width / 2 && transform.position.x > -0.62f){
-               transform.position = new Vector3(transform.position.x - 0.01f, transform.position.y, transform.position.z);
+               transform.position = new Vector3(transform.position.x - 0.015f, transform.position.y, transform.position.z);
                transform.rotation = Quaternion.Euler(0f, 180f, 0f);
            }
            else if (Input.mousePosition.x > Screen.width / 2 && transform.position.x < 0.62f){
-               transform.position = new Vector3(transform.position.x + 0.01f, transform.position.y, transform.position.z);
+               transform.position = new Vector3(transform.position.x + 0.015f, transform.position.y, transform.position.z);
                transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                
            }

@@ -6,6 +6,7 @@ using UnityEngine;
 public class Score : MonoBehaviour
 {
     public Animator animator;
+    public AudioClip pointSound;
 
     int score;
     bool animValue;
@@ -19,6 +20,7 @@ public class Score : MonoBehaviour
     if(collision.gameObject.tag != "Mushroom")   
     score++;
     scoreText.text = score.ToString();
+    AudioSource.PlayClipAtPoint(pointSound, transform.position,3);
     animator.SetTrigger("catchTrigger");
     Destroy(collision.gameObject);
    }

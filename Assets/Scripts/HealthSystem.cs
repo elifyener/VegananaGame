@@ -16,7 +16,9 @@ public class HealthSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Time.timeScale = 1; 
+        Time.timeScale = 1;
+        AudioListener.pause=false;
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -30,6 +32,7 @@ public class HealthSystem : MonoBehaviour
                 Time.timeScale = 0;
                 ScoreText.SetActive(false);
                 DeathScreen.SetActive(true);
+                AudioListener.pause=true;
                 
             }
             if (health<=2)
@@ -43,7 +46,5 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
-    public void RestartGame(){
-        SceneManager.LoadScene(0);
-    }
+    
 }
