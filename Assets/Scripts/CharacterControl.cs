@@ -35,6 +35,9 @@ public class CharacterControl : MonoBehaviour
         if(other.gameObject.CompareTag("ChangeDirect")){
             direct *= -1;
         }
+        if(other.gameObject.CompareTag("IceItem")){
+            // ..
+        }
     }
 }
 

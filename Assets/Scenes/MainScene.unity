@@ -344,6 +344,7 @@ GameObject:
   - component: {fileID: 100503450}
   - component: {fileID: 100503451}
   - component: {fileID: 100503452}
+  - component: {fileID: 100503453}
   m_Layer: 0
   m_Name: Falling Object
   m_TagString: Untagged
@@ -425,6 +426,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ChangeDirection: {fileID: 708525354006625086, guid: 516e67ff3bea5f44ab625bf71a6ca091, type: 3}
+--- !u!114 &100503453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100503448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afaf7838e956fc4d9832b775d9b3c86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IceItem: {fileID: 6473622972202105327, guid: 28c1e522aae3e0d43a0fc356f19a0c25, type: 3}
 --- !u!1 &101094684
 GameObject:
   m_ObjectHideFlags: 0

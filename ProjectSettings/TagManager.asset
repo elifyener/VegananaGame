@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mushroom
   - ChangeDirect
+  - IceItem
   layers:
   - Default
   - TransparentFX
