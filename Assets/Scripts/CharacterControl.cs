@@ -7,6 +7,7 @@ public class CharacterControl : MonoBehaviour
     public Animator animator;
     private int direct = 1;
     private bool moving = true;
+    public float waitTime = 3;
 
     void Start()
     {
@@ -42,6 +43,7 @@ public class CharacterControl : MonoBehaviour
     }
     void  DisableCollider () 
     {
+        waitTime -= Time.deltaTime;
         GetComponent<Collider2D>().enabled = false;
         moving = false;
     }
