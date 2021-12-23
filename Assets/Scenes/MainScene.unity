@@ -342,8 +342,10 @@ GameObject:
   m_Component:
   - component: {fileID: 100503449}
   - component: {fileID: 100503450}
+  - component: {fileID: 100503451}
+  - component: {fileID: 100503452}
   m_Layer: 0
-  m_Name: Fruit
+  m_Name: Falling Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -397,7 +399,32 @@ MonoBehaviour:
   - {fileID: 7754659382639325181, guid: bfa3e8bdaa9f1634796cc36ed6379812, type: 3}
   - {fileID: 4841345422407046878, guid: 7b5d9f3a6595b204cb9ed7f91cff6347, type: 3}
   - {fileID: 3926741552177871443, guid: 68962c653d515734b887947ae34b5a4e, type: 3}
-  - {fileID: 1982291238144676887, guid: 8fcb0d03883f9534a95f7e49e017a918, type: 3}
+--- !u!114 &100503451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100503448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9615a118337195049b5a18600e914440, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mushroom: {fileID: 1982291238144676887, guid: 8fcb0d03883f9534a95f7e49e017a918, type: 3}
+--- !u!114 &100503452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100503448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 102dfddd6d15f9d4685d0e1d0650b1b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ChangeDirection: {fileID: 708525354006625086, guid: 516e67ff3bea5f44ab625bf71a6ca091, type: 3}
 --- !u!1 &101094684
 GameObject:
   m_ObjectHideFlags: 0

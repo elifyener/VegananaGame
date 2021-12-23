@@ -17,7 +17,7 @@ public class Score : MonoBehaviour
     }
 
    private void OnCollisionEnter2D(Collision2D collision){
-    if(collision.gameObject.tag != "Mushroom")   
+    if(collision.gameObject.tag != "Mushroom" && collision.gameObject.tag != "ChangeDirect" )   
     score++;
     scoreText.text = score.ToString();
     AudioSource.PlayClipAtPoint(pointSound, transform.position,3);
