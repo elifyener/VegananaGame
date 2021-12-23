@@ -20,32 +20,19 @@ public class Settings : MonoBehaviour
         PauseScreen.SetActive(true);
     }
     public void ResumeGame(){
-        StartCoroutine(WaitForIt());
+        PauseScreen.SetActive(false);
+        AudioListener.pause=false;
+        Time.timeScale = 1;
     }
     public void OffOnMusic(){
         AudioListener.pause=flag;
         flag = !flag;
     }
-    IEnumerator WaitForIt(){
-        yield return new WaitForSecondsRealtime(0.05f);
-        PauseScreen.SetActive(false);
-        AudioListener.pause=false;
-        Time.timeScale = 1;
-    }
     public void RestartGame(){
-        StartCoroutine(WaitForRestart());
-    }
-    public void GotoMainMenu(){
-        StartCoroutine(WaitForMainMenu());
-    }
-    IEnumerator WaitForRestart(){
-        yield return new WaitForSecondsRealtime(0.05f);
-        AudioListener.pause=false;
         SceneManager.LoadScene(1);
     }
-    IEnumerator WaitForMainMenu(){
-        yield return new WaitForSecondsRealtime(0.05f);
-        AudioListener.pause=false;
+    public void GotoMainMenu(){
         SceneManager.LoadScene(0);
     }
+    
 }

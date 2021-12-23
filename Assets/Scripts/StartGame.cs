@@ -13,11 +13,6 @@ public class StartGame : MonoBehaviour
     }
 
     public void GameStart(){
-        StartCoroutine(WaitForIt());
-    }
-    IEnumerator WaitForIt(){
-        yield return new WaitForSecondsRealtime(0.05f);
         SceneManager.LoadScene(1);
     }
-    
 }
