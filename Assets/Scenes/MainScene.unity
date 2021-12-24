@@ -5765,7 +5765,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2053747480}
-  waitTime: 3
 --- !u!114 &2053747486
 MonoBehaviour:
   m_ObjectHideFlags: 0

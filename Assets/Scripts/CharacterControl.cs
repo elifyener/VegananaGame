@@ -7,16 +7,16 @@ public class CharacterControl : MonoBehaviour
     public Animator animator;
     private int direct = 1;
     private bool moving = true;
-    public float waitTime = 3;
-
     void Start()
     {
+        animator = GetComponent<Animator> ();
         animator.SetBool("isRight", false);
     }
 
     void Update()
     {
        if(Input.anyKey && moving){
+           animator.SetBool("isRight", true);
            if ((direct * Input.mousePosition.x) < direct * (Screen.width) / 2 && transform.position.x > -0.62f){
                transform.position = new Vector3(transform.position.x - 0.015f, transform.position.y, transform.position.z);
                transform.rotation = Quaternion.Euler(0f, 180f, 0f);
@@ -24,12 +24,17 @@ public class CharacterControl : MonoBehaviour
            else if ((direct * Input.mousePosition.x) > (direct * Screen.width / 2) && transform.position.x < 0.62f){
                transform.position = new Vector3(transform.position.x + 0.015f, transform.position.y, transform.position.z);
                transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-               
            }
-           animator.SetBool("isRight", true);
+           
        }
-       else{
-           animator.SetBool("isRight", false);
+       else if(moving)
+       {
+            
+            animator.SetBool("isRight", false);
+       }
+       else
+       {
+           animator.SetTrigger("freeze");
        }
     }
     private void OnCollisionEnter2D(Collision2D other) 
@@ -39,13 +44,21 @@ public class CharacterControl : MonoBehaviour
         }
         if(other.gameObject.CompareTag("IceItem")){
             Invoke ("DisableCollider", 0f);
+            
+            Invoke ("DefaultCollider", 3f);
+           
         }
     }
     void  DisableCollider () 
     {
-        waitTime -= Time.deltaTime;
         GetComponent<Collider2D>().enabled = false;
         moving = false;
+
+    }
+    void DefaultCollider()
+    {
+        GetComponent<Collider2D>().enabled = true;
+        moving = true;
     }
 }
 
