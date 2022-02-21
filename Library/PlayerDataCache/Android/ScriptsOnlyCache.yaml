@@ -6,9 +6,13 @@ ScriptsOnlyBuild:
     - HealthSystem
     - PlatformControl
     - Score
+    - SendChangeDirection
     - SendCloud
     - SendFruit
+    - SendIceItem
+    - SendMushroom
     - SendWind
+    - Settings
     - StartGame
     - TreeMove
     - WindMove
@@ -16,7 +20,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -37,8 +40,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -67,7 +72,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 61
+      Script: {instanceID: 0}
+    - Class: 62
       Script: {instanceID: 0}
     - Class: 70
       Script: {instanceID: 0}
@@ -94,33 +103,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1908}
     - Class: 114
-      Script: {instanceID: 2714}
+      Script: {instanceID: 2564}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2716}
     - Class: 114
-      Script: {instanceID: 2940}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3248}
+      Script: {instanceID: 3126}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3250}
     - Class: 114
-      Script: {instanceID: 3504}
+      Script: {instanceID: 3378}
     - Class: 114
-      Script: {instanceID: 3524}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 3572}
+      Script: {instanceID: 3526}
     - Class: 114
-      Script: {instanceID: 3666}
+      Script: {instanceID: 3574}
     - Class: 114
-      Script: {instanceID: 4148}
+      Script: {instanceID: 3668}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4150}
     - Class: 114
-      Script: {instanceID: 5420}
+      Script: {instanceID: 4264}
     - Class: 114
-      Script: {instanceID: 5874}
+      Script: {instanceID: 4362}
+    - Class: 114
+      Script: {instanceID: 4444}
+    - Class: 114
+      Script: {instanceID: 5426}
+    - Class: 114
+      Script: {instanceID: 5768}
+    - Class: 114
+      Script: {instanceID: 5882}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,25 +196,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2280}
     - Class: 114
-      Script: {instanceID: 2714}
+      Script: {instanceID: 2716}
     - Class: 114
-      Script: {instanceID: 2890}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 2940}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 3124}
+      Script: {instanceID: 3126}
     - Class: 114
-      Script: {instanceID: 3376}
+      Script: {instanceID: 3378}
     - Class: 114
-      Script: {instanceID: 3504}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 4766}
+      Script: {instanceID: 4772}
     - Class: 114
-      Script: {instanceID: 4928}
+      Script: {instanceID: 4934}
     - Class: 114
-      Script: {instanceID: 5336}
+      Script: {instanceID: 5342}
     - Class: 114
-      Script: {instanceID: 5806}
+      Script: {instanceID: 5814}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -249,7 +266,7 @@ ScriptsOnlyBuild:
     className: ShaderPropAnimator
   - hash:
       serializedVersion: 2
-      Hash: 30f3213a6e218a461fa00e428f22d3eb
+      Hash: 72a52a3df927103a49a4abced2146ddc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Score
@@ -379,6 +396,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: 082f65a9114bfc49334fabdfdcf85c46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Settings
   - hash:
       serializedVersion: 2
       Hash: 4f60ff347d4efee4ef8cc7f627735018
@@ -693,6 +716,12 @@ ScriptsOnlyBuild:
     className: TMP_TextEventHandler
   - hash:
       serializedVersion: 2
+      Hash: 288e2eaa3b49fdaf2c4df31960783654
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SendIceItem
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -733,6 +762,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3d22354e9271bc0705f3b2ceb78dff46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SendChangeDirection
   - hash:
       serializedVersion: 2
       Hash: a1ca1237bad0f30ea5ba8f4060929114
@@ -949,6 +984,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 85d9dbe5476f8f3d8c839094653aa9d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SendMushroom
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

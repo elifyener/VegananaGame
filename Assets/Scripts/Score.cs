@@ -15,13 +15,20 @@ public class Score : MonoBehaviour
     {
         scoreText = GameObject.Find("Canvas/scoreText").GetComponent<TextMeshProUGUI>();
     }
-
-   private void OnCollisionEnter2D(Collision2D collision){
-    if(collision.gameObject.tag != "Mushroom" && collision.gameObject.tag != "ChangeDirect"  && collision.gameObject.tag != "IceItem")   
-    score++;
-    scoreText.text = score.ToString();
-    AudioSource.PlayClipAtPoint(pointSound, transform.position,3);
-    animator.SetTrigger("catchTrigger");
-    Destroy(collision.gameObject);
+   private void OnTriggerEnter2D(Collider2D other) 
+   {
+       if(other.gameObject.tag != "Mushroom" && other.gameObject.tag != "ChangeDirect"  && other.gameObject.tag != "IceItem")
+        {   
+            score++;
+            scoreText.text = score.ToString();
+            AudioSource.PlayClipAtPoint(pointSound, transform.position,3);
+            animator.SetTrigger("catchTrigger");
+            Destroy(other.gameObject);
+        }
+        else
+        {
+            animator.SetTrigger("catchTrigger");
+            Destroy(other.gameObject);
+        }
    }
 }

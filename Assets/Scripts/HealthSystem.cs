@@ -5,35 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class HealthSystem : MonoBehaviour
 {
-    public GameObject DeathScreen;
     public GameObject ScoreText;
-    public GameObject pointText;
     public GameObject health1;
     public GameObject health2;
     public GameObject health3;
-
     public int health = 3;
+    public AudioSource pauseSound;
+    public AudioSource BgSound;
+    public AudioClip MushroomSound;
+    public GameObject DeathScreen;
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 1;
-        AudioListener.pause=false;
-
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.tag == "Mushroom")
+        if (other.gameObject.tag == "Mushroom")
         {
+            AudioSource.PlayClipAtPoint(MushroomSound, transform.position,3);
             health--;
             if(health <= 0)
             {
                 health1.SetActive(false);
-                Time.timeScale = 0;
                 ScoreText.SetActive(false);
+                Time.timeScale = 0;
+                BgSound.Stop();
+                pauseSound.Play();
                 DeathScreen.SetActive(true);
-                AudioListener.pause=true;
-                
             }
             if (health<=2)
             {
@@ -46,5 +46,4 @@ public class HealthSystem : MonoBehaviour
         }
     }
 
-    
 }

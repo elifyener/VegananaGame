@@ -7,6 +7,8 @@ public class CharacterControl : MonoBehaviour
     public Animator animator;
     private int direct = 1;
     private bool moving = true;
+    public AudioClip IceSound;
+    public AudioClip ChangeSound;
     void Start()
     {
         animator = GetComponent<Animator> ();
@@ -37,12 +39,14 @@ public class CharacterControl : MonoBehaviour
            animator.SetTrigger("freeze");
        }
     }
-    private void OnCollisionEnter2D(Collision2D other) 
+    private void OnTriggerEnter2D(Collider2D other) 
     {
         if(other.gameObject.CompareTag("ChangeDirect")){
+            AudioSource.PlayClipAtPoint(ChangeSound, transform.position,3);
             direct *= -1;
         }
         if(other.gameObject.CompareTag("IceItem")){
+            AudioSource.PlayClipAtPoint(IceSound, transform.position,3);
             Invoke ("DisableCollider", 0f);
             
             Invoke ("DefaultCollider", 3f);

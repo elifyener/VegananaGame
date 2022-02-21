@@ -9,7 +9,6 @@ public class StartGame : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1;
-        AudioListener.pause=false;
     }
 
     public void GameStart(){
