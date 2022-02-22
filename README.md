@@ -3,7 +3,7 @@
 </p>
 
 # Veganana
-Veganana is an open source 2D mobile platformer game developed with Unity2D. Our character is a vegan banana. The aim of the banana is to reach the highest score by eating the fruits but purple mushrooms poison the banana. He should not miss any fruit. Otherwise, the score will decrease. Have fun!
+Veganana is an open-source 2D mobile platformer game developed with Unity2D. Our character is a vegan banana. The banana aims to reach the highest score by eating the fruits. But purple mushrooms poison the banana. He should not miss any fruit. Otherwise, the score will decrease. Have fun!
 
 Note: Unity2D version is 2020.3.3f1
 
