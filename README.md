@@ -6,7 +6,7 @@
 Veganana is an open source 2D mobil platform game developed with Unity2D. Our character is a vegan banana. The aim of the banana is to reach the highest score by eating the fruits. But purple mushrooms poison the banana. He should not miss any fruit. Otherwise, the score will decrease. Have fun!
 Note: Unity2D version is 2020.3.3f1
 
-| [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) | [:camera: Screenshots](#screenshots) | [:movie_camera: **See the Walkthrough**](https://www.youtube.com/....)
+| [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) | [:camera: Screenshots](#screenshots) | [:movie_camera: **See the Trailer**](https://youtu.be/B0qL1Qmb-ZM)
 | --------------- | -------- | ----------- | ----------- |
 
 ## Getting Started
@@ -37,7 +37,7 @@ git clone https://github.com/elifyener/VegananaGame.git
 
 Also you can the build version of the Veganana using the following ways:
 
-- [:star: Download from Itch.io](https://elifyener.itch.io/...)
+- [:star: Download from Itch.io](https://elifyener.itch.io/veganana)
 
 ## Screenshots
 
