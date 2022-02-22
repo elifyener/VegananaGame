@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="..." />
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/0.png" />
 </p>
 
 # Veganana
-//
+Veganana is an open source 2D mobil platform game developed with Unity2D. Our character is a vegan banana. The aim of the banana is to reach the highest score by eating the fruits. But purple mushrooms poison the banana. He should not miss any fruit. Otherwise, the score will decrease. Have fun!
 Note: Unity2D version is 2020.3.3f1
 
 | [:sparkles: Getting Started](#getting-started) | [:rocket: Download](#download) | [:camera: Screenshots](#screenshots) | [:movie_camera: **See the Walkthrough**](https://www.youtube.com/....)
@@ -42,7 +42,28 @@ Also you can the build version of the Veganana using the following ways:
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/elifyener/.." />
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/1.jpeg" />
+</p>
+<p align="center">
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/2.jpeg" />
+</p>
+<p align="center">
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/3.jpeg" />
+</p>
+<p align="center">
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/4.jpeg" />
+</p>
+<p align="center">
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/5.jpeg" />
+</p>
+<p align="center">
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/6.jpeg" />
+</p>
+<p align="center">
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/7.jpeg" />
+</p>
+<p align="center">
+  <img src="https://github.com/elifyener/VegananaGame/blob/master/files/8.jpeg" />
 </p>
 
 ## Credits
@@ -56,5 +77,5 @@ Also you can the build version of the Veganana using the following ways:
 Made with :heart: by [Elif Yener](https://github.com/elifyener)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/elifyener/...) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/elifyener/VegananaGame/blob/master/LICENSE) file for details
 
