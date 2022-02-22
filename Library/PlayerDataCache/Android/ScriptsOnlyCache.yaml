@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -51,6 +52,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
@@ -95,49 +97,51 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 1646}
+      Script: {instanceID: 1648}
     - Class: 114
-      Script: {instanceID: 1870}
+      Script: {instanceID: 1872}
     - Class: 114
-      Script: {instanceID: 1908}
+      Script: {instanceID: 1910}
     - Class: 114
-      Script: {instanceID: 2564}
+      Script: {instanceID: 2566}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2892}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 2944}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3250}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3378}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 3506}
+      Script: {instanceID: 3508}
     - Class: 114
-      Script: {instanceID: 3526}
+      Script: {instanceID: 3528}
     - Class: 114
-      Script: {instanceID: 3574}
+      Script: {instanceID: 3576}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3670}
     - Class: 114
-      Script: {instanceID: 4150}
+      Script: {instanceID: 4152}
     - Class: 114
-      Script: {instanceID: 4264}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 4362}
+      Script: {instanceID: 4290}
     - Class: 114
-      Script: {instanceID: 4444}
+      Script: {instanceID: 4364}
     - Class: 114
-      Script: {instanceID: 5426}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 5768}
+      Script: {instanceID: 5428}
     - Class: 114
-      Script: {instanceID: 5882}
+      Script: {instanceID: 5770}
+    - Class: 114
+      Script: {instanceID: 5884}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -190,31 +194,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1484}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 1870}
+      Script: {instanceID: 1872}
     - Class: 114
-      Script: {instanceID: 2280}
+      Script: {instanceID: 2282}
     - Class: 114
-      Script: {instanceID: 2716}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 2892}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 2942}
+      Script: {instanceID: 3128}
     - Class: 114
-      Script: {instanceID: 3126}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 3378}
+      Script: {instanceID: 3508}
     - Class: 114
-      Script: {instanceID: 3506}
+      Script: {instanceID: 4290}
     - Class: 114
-      Script: {instanceID: 4772}
+      Script: {instanceID: 4774}
     - Class: 114
-      Script: {instanceID: 4934}
+      Script: {instanceID: 4936}
     - Class: 114
-      Script: {instanceID: 5342}
+      Script: {instanceID: 5344}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5816}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -398,7 +402,7 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
-      Hash: 082f65a9114bfc49334fabdfdcf85c46
+      Hash: 6b078811083fc98752c9fc2a50ba06cf
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Settings
@@ -602,7 +606,7 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: 30f3213a6e218a461fa00e428f22d3eb
+      Hash: 640f61db7feaaf70ec75a465287e8bb4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CharacterControl
@@ -746,7 +750,7 @@ ScriptsOnlyBuild:
     className: Dropdown
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: d7912c765efb61cb6ee4c7c78f120d21
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlatformControl
@@ -932,7 +936,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: db5f9579f17eb84d6dbc7cc265cee951
+      Hash: ff1c5130d07d392766bf220e32fd882f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HealthSystem
@@ -1042,4 +1046,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/MainScene.unity
-  playerPath: D:/@Projects/Veganana-Game/Veganana.apk
+  playerPath: C:/Users/elif/Desktop/Veganana.apk

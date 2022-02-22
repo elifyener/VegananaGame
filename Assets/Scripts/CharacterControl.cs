@@ -6,7 +6,8 @@ public class CharacterControl : MonoBehaviour
 {
     public Animator animator;
     private int direct = 1;
-    private bool moving = true;
+    public static bool moving = true;
+    private bool freeze = false;
     public AudioClip IceSound;
     public AudioClip ChangeSound;
     void Start()
@@ -34,7 +35,7 @@ public class CharacterControl : MonoBehaviour
             
             animator.SetBool("isRight", false);
        }
-       else
+       else if(freeze)
        {
            animator.SetTrigger("freeze");
        }
@@ -57,12 +58,14 @@ public class CharacterControl : MonoBehaviour
     {
         GetComponent<Collider2D>().enabled = false;
         moving = false;
+        freeze = true;
 
     }
     void DefaultCollider()
     {
         GetComponent<Collider2D>().enabled = true;
         moving = true;
+        freeze = false;
     }
 }
 

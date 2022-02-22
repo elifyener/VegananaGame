@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +15,7 @@ public class HealthSystem : MonoBehaviour
     public AudioSource BgSound;
     public AudioClip MushroomSound;
     public GameObject DeathScreen;
+    [SerializeField] TextMeshProUGUI game_score;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,9 +32,11 @@ public class HealthSystem : MonoBehaviour
             {
                 health1.SetActive(false);
                 ScoreText.SetActive(false);
+                game_score.text = Score.score.ToString();
                 Time.timeScale = 0;
                 BgSound.Stop();
                 pauseSound.Play();
+                CharacterControl.moving = false;
                 DeathScreen.SetActive(true);
             }
             if (health<=2)

@@ -9,6 +9,7 @@ public class Settings : MonoBehaviour
     public AudioSource BgSound;
     static bool flag = true;
     public GameObject PauseScreen;
+    public GameObject ScoreText;
     void Start()
     {
         //AudioListener.pause=false;
@@ -16,12 +17,16 @@ public class Settings : MonoBehaviour
 
     public void PauseGame(){
         Time.timeScale = 0;
+        CharacterControl.moving = false;
+        ScoreText.SetActive(false);
         BgSound.Pause();
         pauseSound.Play();
         PauseScreen.SetActive(true);
     }
     public void ResumeGame(){
+        CharacterControl.moving = true;
         PauseScreen.SetActive(false);
+        ScoreText.SetActive(true);
         BgSound.Play();
         pauseSound.Stop();
         Time.timeScale = 1;
@@ -31,9 +36,13 @@ public class Settings : MonoBehaviour
         flag = !flag;
     }
     public void RestartGame(){
+        Score.score = 0;
+        CharacterControl.moving = true;
         SceneManager.LoadScene(1);
     }
     public void GotoMainMenu(){
+        Score.score = 0;
+        CharacterControl.moving = true;
         SceneManager.LoadScene(0);
     }
     

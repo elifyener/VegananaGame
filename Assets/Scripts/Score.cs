@@ -8,7 +8,7 @@ public class Score : MonoBehaviour
     public Animator animator;
     public AudioClip pointSound;
 
-    int score;
+    public static int score;
     bool animValue;
     TextMeshProUGUI scoreText;
     void Start()
@@ -21,7 +21,7 @@ public class Score : MonoBehaviour
         {   
             score++;
             scoreText.text = score.ToString();
-            AudioSource.PlayClipAtPoint(pointSound, transform.position,3);
+            AudioSource.PlayClipAtPoint(pointSound, transform.position,0.25f);
             animator.SetTrigger("catchTrigger");
             Destroy(other.gameObject);
         }
